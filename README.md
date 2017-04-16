@@ -8,4 +8,5 @@ This is where we will compare two OO languages
 * Team members
   * Chen Ju
   * Qing Lei
+  * Chengyi Qu
   * Jing Su
