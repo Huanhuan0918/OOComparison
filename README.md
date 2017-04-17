@@ -3,7 +3,7 @@
 This is where we will compare two OO languages
 
 * Languages to compare
-  * Java
+  * Python
   * C#
 * Team members
   * Chen Ju
