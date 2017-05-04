@@ -156,3 +156,51 @@ if __name__ == '__main__':
 ```
 
 He mentioned in the code that  [Tonado](http://www.tornadoweb.org/en/stable/) ([Github Repository](https://github.com/tornadoweb/tornado)) is a Python web framework and asynchronous networking library, originally developed at FriendFeed.
+
+The other singleton example is shown as below:
+
+```python
+import threading
+
+class EventBus(object):
+    _instance = None    _lock = threading.Lock()
+
+    def __new__(cls):
+        if EventBus._instance is None:
+            with EventBus._lock:
+                if EventBus._instance is None:
+                    EventBus._instance = super(EventBus, cls).__new__(cls)
+        return EventBus._instance
+
+    def __init__(self):
+        self.clients = []
+```
+
+### Can the singleton instance be lazily instantiated?
+
+**Yes! It can!** Here is an example on [wiki](https://en.wikipedia.org/wiki/Lazy_initialization#Python):
+
+```python
+class Fruit:
+    def __init__(self, item):
+        self.item = item
+
+class Fruits:
+    def __init__(self):
+        self.items = {}
+
+    def get_fruit(self, item):
+        if item not in self.items:
+            self.items[item] = Fruit(item)
+
+        return self.items[item]
+
+if __name__ == '__main__':
+    fruits = Fruits()
+    print(fruits.get_fruit('Apple'))
+    print(fruits.get_fruit('Lime'))
+```
+
+## C`#`
+
+lolololol
