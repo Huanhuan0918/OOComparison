@@ -25,4 +25,15 @@ Python is a descendant of programming language [ABC](https://en.wikipedia.org/wi
 
 ## C`#`
 
-C\# is a good language
+### Why was the language created?
+
+C# was designed for the Common language infrastructure, and serves as a general-purpose, OOP language. (From Wikipedia)
+In my own opinion, it’s more like a Microsoft’s monopoly. They build .Net framework aiming at desktop applications and web applications on Windows and C# is most commonly used in the framework. In northeastern areas in US, IT department of most non-IT companies purchase Microsoft license as a whole, and using C# as one of their developing languages.  
+
+### What problems was the language trying to address?
+
+It should support existing software engineering principles such as strong type checking, array bound checking, detection of attempts to use uninitialized variables, source code portability and automatic garbage collection; also be suitable for deployment in distributed environment, and suitable for hosted or embedded systems. 
+
+### Is the language a reaction to a previous language or a replacement for another language?
+
+On syntax level, C# is closer to C/C++; on feature level, C# is closer to java.  
