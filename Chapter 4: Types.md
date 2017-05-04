@@ -44,4 +44,16 @@ Anyway, Python initially behaves like call-by-reference, but as soon as we are c
 
 ## C`#`
 
-houhouhou
+### What types does the language support?
+
+C# supports both value type and reference type. 
+
+### Are both reference and value types supported?
+
+Yes.
+
+### Can new value types be created?
+
+Yes, there are user defined value types in C#, such as Struct.
+
+
