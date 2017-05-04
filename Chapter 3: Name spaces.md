@@ -16,4 +16,12 @@ Many programming languages use namespaces or contexts for identifiers. An identi
 
 ## C`#`
 
-HAHA
+### How are name spaces implemented?
+
+Namespaces in C# help with declaring a scope to organize code.
+
+### How are name spaces used?
+
+Namespaces in C# are used after using statements and before class details start. 
+
+
