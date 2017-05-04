@@ -25,6 +25,8 @@ Python is a descendant of programming language [ABC](https://en.wikipedia.org/wi
 
 ## C`#`
 
+![Image of C Sharp](https://s-media-cache-ak0.pinimg.com/originals/c2/fb/fe/c2fbfeaf6d822fe9920b95cfd2e48e0d.jpg)
+
 ### Why was the language created?
 
 C# was designed for the Common language infrastructure, and serves as a general-purpose, OOP language. (From Wikipedia)
