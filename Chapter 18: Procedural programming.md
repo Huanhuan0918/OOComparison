@@ -88,4 +88,6 @@ public int[] Translate(string word)
 
 We see that functional programming is much cleaner and easier than procedural programming in this case. We'll be looking at functional programming in next module.
 
+### Reference
 
+Tim Ross provided good example in his wordpress website: https://timross.wordpress.com/2010/04/05/an-example-of-functional-vs-imperative-programming-in-c/
