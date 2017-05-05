@@ -53,4 +53,38 @@ The property object must be assigned to a class attribute.
 
 ## C`#`
 
-heiheiheiheiheihei
+### Getters and setters...write your own or built in?
+
+C# has built in getters and setters, meaning that properties can be auto-implemented. 
+User can also define customized properties using getter and setter. A get property accessor is used to return the property value, and a set accessor is used to assign a new value. 
+
+```csharp
+public double TotalAmount { get; set; }
+public string Name { get; set; }
+public int CustomerID { get; set; }
+```
+
+### Backing variables & Computed properties
+
+Backing field stores the data exposed by a public property, we use this a lot in C#:
+
+```csharp
+ private int m_Capacity;
+
+ public int Capacity
+ {
+    get { return m_Capacity > 0 ? m_Capacity : -666; }
+    set { m_Capacity = value; }
+ }
+```
+
+If we don’t use backing field m_Capacity and do this:
+
+```csharp
+public int Capacity 
+{ 
+    get { return Capacity > 0 ? Capacity : -666; } 
+    set { Capacity = value; } 
+}
+```
+
