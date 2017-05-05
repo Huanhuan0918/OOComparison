@@ -52,7 +52,7 @@ if __name__ == '__main__':
     print 'Instance:', isinstance(SubclassImplementation(), PluginBase)
 ```
 
-## C`#`
+## C# #
 
 ### What does the language support?
 
