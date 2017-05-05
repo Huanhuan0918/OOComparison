@@ -29,4 +29,10 @@ With [*new-style classes*](https://docs.python.org/2/glossary.html#term-new-styl
 
 ## C`#`
 
-lalalalalala
+In C#, one class can inherit from another class, and the latter is called base class and provides abstract methods to be implemented by its children. 
+
+C# doesn’t allow multiple inheritance, using interfaces to solve this.
+
+Extension methods in C# are a special kind of static method, but they are called as if they were instance methods on the extended type
+The most common extension methods are the LINQ standard query operators that add query functionality, such OrderBy. 
+
