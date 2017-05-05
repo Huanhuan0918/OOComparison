@@ -203,4 +203,60 @@ if __name__ == '__main__':
 
 ## C`#`
 
-lolololol
+### How is a singleton implemented?
+
+```csharp
+using System;
+
+public class Singleton
+{
+   private static Singleton instance;
+
+   private Singleton() {}
+
+   public static Singleton Instance
+   {
+      get 
+      {
+         if (instance == null)
+         {
+            instance = new Singleton();
+         }
+         return instance;
+      }
+   }
+}
+```
+
+### Can it be made thread-safe?
+
+```csharp
+public sealed class Singleton
+{
+    private static Singleton instance = null;
+    private static readonly object padlock = new object();
+
+    Singleton()
+    {
+    }
+
+    public static Singleton Instance
+    {
+        get
+        {
+            lock (padlock)
+            {
+                if (instance == null)
+                {
+                    instance = new Singleton();
+                }
+                return instance;
+            }
+        }
+    }
+}
+```
+
+### Can the singleton instance be lazily instantiated?
+
+In above code example, the instantiation is not performed until an object asks for an instance; this approach is referred to as lazy instantiation. 
