@@ -15,4 +15,10 @@ In Python, lambda-expression may only have a single expression for its body, and
 
 ## C`#`
 
-heiheihei
+In C#, lambda expression is an anonymous function used to create delegates or expression tree types; to write local functions that can be passed as arguments or returned as the value of function calls. Lambda expressions are mostly helpful for writing LINQ query expressions. 
+Use => in Lambda expressions.
+
+```csharp
+int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };  
+int oddNumbers = numbers.Count(n => n % 2 == 1);  
+```
