@@ -129,7 +129,7 @@ The last line of the second script demonstrate the use of a class method. A clas
 
 More information can be found in [*this website*](http://www.assembleforce.com/2012-08/reflection-in-python.h).
 
-## C`#`
+## C# #
 
 ###  What reflection abilities are supported?
 
