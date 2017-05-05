@@ -48,7 +48,7 @@ Object ***\__del\__(self)*** called when the instance is about to be destroyed. 
 
 A class is a construct that enables you to create your own custom types by grouping together variables of other types, methods and events.
 
-```
+```csharp
 public class ExampleClass
 {
         //Fields, properties, methods and events go here...
@@ -56,7 +56,7 @@ public class ExampleClass
 ```
 ### Creating new instances and constructing/initializaing
 
-```
+```csharp
 var example1 = new Example1();
 var example2  = example1;
 ```
