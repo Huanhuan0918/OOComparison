@@ -44,4 +44,52 @@ Object ***\__del\__(self)*** called when the instance is about to be destroyed. 
 
 ## C`#`
 
-hahahaha
+### Defining
+
+A class is a construct that enables you to create your own custom types by grouping together variables of other types, methods and events.
+
+```
+public class ExampleClass
+{
+        //Fields, properties, methods and events go here...
+}
+```
+### Creating new instances and constructing/initializaing
+
+```
+var example1 = new Example1();
+var example2  = example1;
+```
+
+### Destructing/de-initializing
+
+Use destructors to destruct instance of class.
+
+```
+ class Car
+    {
+        ~Car()  // destructor
+        {
+            // cleanup statements...
+        }
+    }
+```
+
+The destructor implicitly calls Finalize on the base class of the object. Therefore, the previous destructor code is implicitly translated to the following code:
+
+```
+protected override void Finalize()  
+{  
+    try  
+    {  
+        // Cleanup statements...  
+    }  
+    finally  
+    {  
+        base.Finalize();  
+    }  
+}  
+```
+
+
+
