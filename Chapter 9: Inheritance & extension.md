@@ -27,7 +27,7 @@ For [*new-style classes*](https://docs.python.org/2/glossary.html#term-new-style
 
 With [*new-style classes*](https://docs.python.org/2/glossary.html#term-new-style-class), dynamic ordering is necessary because all cases of multiple inheritance exhibit one or more diamond relationships (where at least one of the parent classes can be accessed through multiple paths from the bottommost class). For example, all new-style classes inherit from [object](https://docs.python.org/2/library/functions.html#object), so any case of multiple inheritance provides more than one path to reach [object](https://docs.python.org/2/library/functions.html#object). To keep the base classes from being accessed more than once, the dynamic algorithm linearizes the search order in a way that preserves the left-to-right ordering specified in each class, that calls each parent only once, and that is monotonic (meaning that a class can be subclassed without affecting the precedence order of its parents). Taken together, these properties make it possible to design reliable and extensible classes with multiple inheritance.
 
-## C`#`
+## C# #
 
 In C#, one class can inherit from another class, and the latter is called base class and provides abstract methods to be implemented by its children. 
 
