@@ -42,7 +42,7 @@ Anyway, Python initially behaves like call-by-reference, but as soon as we are c
 
 **Yes!** The Python runtime sees all Python objects as variables of type PyObject, which serves as a “base type” for all Python objects. PyObject itself only contains the refcount and a pointer to the object’s “type object”. So, if you want to define a new object type, you need to create a new type object.
 
-## C`#`
+## C# #
 
 ### What types does the language support?
 
