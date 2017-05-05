@@ -41,4 +41,28 @@ A try statement may have more than one except clause, to specify handlers for di
 
 ## C`#`
 
-houhouhouhou
+In C#, we use try-catch-finally blocks to handle exceptions and throw errors and possibly log them. For Catch blocks, there could be multiple, from most specific to least. A finally block will be executed no matter exception occurs or not.
+
+```csharp
+            try
+            {
+                string s = null;
+                ProcessString(s);
+            }
+            // Most specific:
+            catch (ArgumentNullException e)
+            {
+                Console.WriteLine("{0} First exception caught.", e);
+            }
+            // Least specific:
+            catch (Exception e)
+            {
+                Console.WriteLine("{0} Second exception caught.", e);
+            }
+            finally()
+            {
+               //something that will be done no matter what
+            }
+            }
+
+```
