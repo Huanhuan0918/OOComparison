@@ -54,4 +54,16 @@ if __name__ == '__main__':
 
 ## C`#`
 
-wowowowowowow
+### What does the language support?
+
+C# supports interfaces.
+
+### What abilities does it have?
+
+Using interfaces you can include behavior from multiple sources in a class, which is important since C# doesn’t support multiple inheritance. In addition, you must use an interface if you want to simulate inheritance for structs, because they can't actually inherit from another struct or class. (From MSDN)
+Also, in C# interfaces start with I, such as IEnumerable, IQueryable or some other user defined interfaces.
+
+### How is it used?
+
+To use interfaces in C#, simply use colon “:” after a class, and if you want to implement multiple interfaces, use coma “,” to separate interfaces. 
+
