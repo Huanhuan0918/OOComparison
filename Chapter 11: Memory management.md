@@ -29,4 +29,22 @@ Prior to Python version 2.0, the Python interpreter only used reference counting
 
 ## C`#`
 
-lolololol
+### How is it handled?
+
+C# has garbage collector that operates automatically following the memory management lifecycle.
+
+### How does it work?
+
+When the object is created, space in memory will be allocated to it, and the constructor runs, then the object is considered live.
+If an object is no longer being accessed, then it’s considered no longer used and it becomes eligible for destruction.
+Once the destructor for an object starts running, and it’s not part of any execution, then the object is considered inaccessible and the object becomes eligible for collection.
+Finally, at some time after the object becomes eligible for collection, the garbage collector frees the memory associated with that object.
+
+### Garbage collection
+
+Yes C# has its automatic garbage collector.
+
+### Automatic reference counting
+
+C# compiler and the garbage collector may choose to analyze code to determine which references to an object may be used in the future.
+
