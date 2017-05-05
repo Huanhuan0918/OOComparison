@@ -65,7 +65,7 @@ var example2  = example1;
 
 Use destructors to destruct instance of class.
 
-```
+```csharp
  class Car
     {
         ~Car()  // destructor
@@ -77,7 +77,7 @@ Use destructors to destruct instance of class.
 
 The destructor implicitly calls Finalize on the base class of the object. Therefore, the previous destructor code is implicitly translated to the following code:
 
-```
+```csharp
 protected override void Finalize()  
 {  
     try  
