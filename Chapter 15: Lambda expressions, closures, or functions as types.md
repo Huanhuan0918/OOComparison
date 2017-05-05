@@ -13,7 +13,7 @@ The following example of a lambda function returns the sum of its two arguments:
 
 In Python, lambda-expression may only have a single expression for its body, and no `return` statement is permitted. In Java, you can do something like this: `(int a, int b) -> { return a * b; };` and other optional things as well.
 
-## C`#`
+## C# #
 
 In C#, lambda expression is an anonymous function used to create delegates or expression tree types; to write local functions that can be passed as arguments or returned as the value of function calls. Lambda expressions are mostly helpful for writing LINQ query expressions. 
 Use => in Lambda expressions.
