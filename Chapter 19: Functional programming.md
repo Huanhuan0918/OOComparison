@@ -95,6 +95,17 @@ Consult the operator module’s documentation for a complete list.
 
 All the text above are collection from this [website](https://docs.python.org/2/howto/functional.html#the-functools-module).
 
-## C`#`
+## C# #
 
-heiheihei
+### Does the language support functional programming?
+
+Yes, C# does support functional programming.
+Functional programming in C# is frequently combined with object oriented programming. C# enables us to use imperative programming using object-oriented concepts, but we can also use declarative programming. 
+LINQ is one implementation library that enables us to use functional programming concepts
+As an example, imagine that you want to find the top 10 books with price less than 20 ordered by title. In functional programming, you will define something like:
+
+```csharp
+books.Where(price<20).OrderBy(title).Take(10);
+```
+
+Here you just specify that you want to select books where the price is less than 20, order them by title, and take the first ten. As you can see, you do not specify how this should be done - only what you want to do.
