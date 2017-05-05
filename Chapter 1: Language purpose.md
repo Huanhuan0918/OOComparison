@@ -23,7 +23,7 @@ Python is a descendant of programming language [ABC](https://en.wikipedia.org/wi
 * [_Learning Python website_](https://www.learnpython.org/) is a good website for learning Python.
 * [_Python animal book_](https://www.amazon.com/Learning-Python-5th-Mark-Lutz/dp/1449355730/ref=sr_1_2?ie=UTF8&qid=1493915677&sr=8-2&keywords=python) written by [Mark Lutz](https://www.amazon.com/Mark-Lutz/e/B000APH2C4/ref=dp_byline_cont_book_1).
 
-## C`#`
+## C# #
 
 ![Image of C Sharp](https://s-media-cache-ak0.pinimg.com/originals/c2/fb/fe/c2fbfeaf6d822fe9920b95cfd2e48e0d.jpg)
 
