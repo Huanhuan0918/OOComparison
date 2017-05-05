@@ -35,7 +35,7 @@ The sesult shows:
 
 The reason why c.pprt() function calls the object the same as c.cprt() is because when the function called, it presented Child.pprt(t) called, so this will called the instance of child, not parent.
 
-## C`#`
+## C# #
 
 ### *this()* or *self()*?
 
