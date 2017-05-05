@@ -39,7 +39,7 @@ The [try](https://docs.python.org/3/reference/compound_stmts.html#try) statement
 
 A try statement may have more than one except clause, to specify handlers for different exceptions. At most one handler will be executed. Handlers only handle exceptions that occur in the corresponding [try](https://docs.python.org/3/reference/compound_stmts.html#try) clause, not in other handlers of the same [try](https://docs.python.org/3/reference/compound_stmts.html#try) statement.
 
-## C`#`
+## C# #
 
 In C#, we use try-catch-finally blocks to handle exceptions and throw errors and possibly log them. For Catch blocks, there could be multiple, from most specific to least. A finally block will be executed no matter exception occurs or not.
 
