@@ -42,7 +42,7 @@ class Employee:
 
 Object ***\__del\__(self)*** called when the instance is about to be destroyed. This is also called a destructor. If a base class has a *\__del\__()* method, the derived class’s *\__del\__()* method, if any, must explicitly call it to ensure proper deletion of the base class part of the instance. Note that it is possible (though not recommended!) for the *\__del\__()* method to postpone destruction of the instance by creating a new reference to it. It may then be called at a later time when this new reference is deleted. It is not guaranteed that *\__del\__()* methods are called for objects that still exist when the interpreter exits.
 
-## C`#`
+## C# #
 
 ### Defining
 
