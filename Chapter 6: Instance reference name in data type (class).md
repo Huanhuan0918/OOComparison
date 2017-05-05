@@ -43,9 +43,9 @@ The this keyword refers to the current instance of the class and is also used as
 
 ```csharp
   public Employee(string name, string alias)
-            {
-                // Use this to qualify the fields, name and alias:
-                this.name = name;
-                this.alias = alias;
-            }
+  {
+        // Use this to qualify the fields, name and alias:
+        this.name = name;
+        this.alias = alias;
+  }
 ```
