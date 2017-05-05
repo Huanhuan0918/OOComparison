@@ -27,7 +27,7 @@ Prior to Python version 2.0, the Python interpreter only used reference counting
 
 [*This website*](https://www.digi.com/wiki/developer/index.php/Python_Garbage_Collection) shows the details on garbage collection in Python programming
 
-## C`#`
+## C# #
 
 ### How is it handled?
 
