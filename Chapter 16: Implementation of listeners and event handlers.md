@@ -120,7 +120,7 @@ That's why the second style of event systems exists: the [publish-subscribe patt
 
 Note: `threading.Event` is not an 'event system' in the above sense. It's a thread synchronization system where one thread waits until another thread 'signals' the Event object.
 
-## C`#`
+## C# #
 
 The event model in the .NET Framework is based on having an event delegate that connects an event with its handler. To raise an event, two elements are needed:
 A delegate that refers to a method that provides the response to the event.
