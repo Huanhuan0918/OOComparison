@@ -56,4 +56,23 @@ Yes.
 
 Yes, there are user defined value types in C#, such as Struct.
 
-
+```
+// user defined value type Point
+public final class Point extends System.ValueType
+{
+    public int x;
+    public int y;
+}
+class CMain
+{
+    public static void main()
+    {
+        Point p = new Point();
+        p.x = 5;
+        p.y = 10;
+        System.Console.WriteLine("Point [x,y] = " + p.x + ", " + p.y);
+    }
+}
+```
+- Reference:
+  MSDN: https://msdn.microsoft.com/en-us/library/wysdab55(v=vs.80).aspx
