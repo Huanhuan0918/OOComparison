@@ -131,4 +131,19 @@ More information can be found in [*this website*](http://www.assembleforce.com/2
 
 ## C`#`
 
-houhouhouhou
+###  What reflection abilities are supported?
+
+In C#, reflection provides objects (of type Type) that describe assemblies, modules and types. We could use reflection to dynamically create an instance of a type, bind the type to an existing object, or get the type from an existing object and invoke its methods or access its fields and properties. Reflection also enables us to access attributes if we have attributes in the code. (From MSDN)
+
+### How is reflection used?
+
+```csharp
+//using GetType to obtain type information
+int i = 42;
+System.Type type = i.GetType();
+System.Console.WriteLine(type);
+
+//using reflection to get information from an Assembly
+System.Reflection.Assembly info = typeof(System.Int32).Assembly;
+System.Console.WriteLine(info);
+```
