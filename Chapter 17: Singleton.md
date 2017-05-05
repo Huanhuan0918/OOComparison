@@ -201,7 +201,7 @@ if __name__ == '__main__':
     print(fruits.get_fruit('Lime'))
 ```
 
-## C`#`
+## C# #
 
 ### How is a singleton implemented?
 
