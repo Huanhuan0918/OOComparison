@@ -37,4 +37,15 @@ The reason why c.pprt() function calls the object the same as c.cprt() is becaus
 
 ## C`#`
 
-heiheihei
+### *this()* or *self()*?
+
+The this keyword refers to the current instance of the class and is also used as a modifier of the first parameter of an extension method.
+
+```csharp
+  public Employee(string name, string alias)
+            {
+                // Use this to qualify the fields, name and alias:
+                this.name = name;
+                this.alias = alias;
+            }
+```
