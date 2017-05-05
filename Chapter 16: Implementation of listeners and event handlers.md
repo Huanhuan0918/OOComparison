@@ -122,4 +122,27 @@ Note: `threading.Event` is not an 'event system' in the above sense. It's a thre
 
 ## C`#`
 
-asdasdasd
+The event model in the .NET Framework is based on having an event delegate that connects an event with its handler. To raise an event, two elements are needed:
+A delegate that refers to a method that provides the response to the event.
+Optionally, a class that holds the event data, if the event provides data.
+
+```csharp
+//This delegate can be used to point to methods
+//which return void and take a string.
+public delegate void MyEventHandler(string foo);
+
+//This event can cause any method which conforms
+//to MyEventHandler to be called.
+public event MyEventHandler SomethingHappened;
+
+//Here is some code I want to be executed
+//when SomethingHappened fires.
+void HandleSomethingHappened(string foo)
+{
+    //Do some stuff
+}
+
+//I am creating a delegate (pointer) to HandleSomethingHappened
+//and adding it to SomethingHappened's list of "Event Handlers".
+myObj.SomethingHappened += new MyEventHandler(HandleSomethingHappened);
+```
