@@ -67,3 +67,38 @@ Also, in C# interfaces start with I, such as IEnumerable, IQueryable or some oth
 
 To use interfaces in C#, simply use colon “:” after a class, and if you want to implement multiple interfaces, use coma “,” to separate interfaces. 
 
+To define interface:
+
+```csharp
+    interface ISomething<T>
+    {
+        //implementation goes here
+    }
+```
+
+To use interface:
+
+```csharp
+    public class Car : ISomething<Car>
+    {
+        public string Make {get; set;}
+        public string Model { get; set; }
+        public string Year { get; set; }
+
+        // Implementation of ISomething<T> interface
+        public bool Equals(Car car)
+        {
+            if (this.Make == car.Make &&
+                this.Model == car.Model &&
+                this.Year == car.Year)
+            {
+                return true;
+            }
+            else
+                return false;
+        }
+    }
+```
+
+
+
