@@ -51,7 +51,7 @@ Some tips should attention:
 * In Python 3.x, all classes are automatically based on object, so you can code the class statement either way.
 The property object must be assigned to a class attribute.
 
-## C`#`
+## C# #
 
 ### Getters and setters...write your own or built in?
 
