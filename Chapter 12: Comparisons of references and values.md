@@ -8,7 +8,7 @@
       >>> 1000 is 10**3 False
       >>> 1000 == 10**3 True
 
-## C`#`
+## C# #
 
 ### How are values compared? (i.e. comparing two strings)
 
