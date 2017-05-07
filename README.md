@@ -13,3 +13,7 @@ This is where we will compare two OO languages
   * Qing Lei
   * Chengyi Qu
   * Jing Su
+
+## Content
+
+1. [Chapter 1: Language purpose](./Chapter 1: Language purpose.md)
